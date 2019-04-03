@@ -27,7 +27,7 @@ distrib:
 	dune-release tag
 	dune-release distrib
 
-.PHONY: public
+.PHONY: publish
 publish:
 	dune-release publish
 	dune-release opam pkg
